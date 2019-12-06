@@ -1,0 +1,4 @@
+web:
+    image: internal/converse-e2e-test:latest
+    environment: 
+        VIRTUAL_HOST: converse.docker

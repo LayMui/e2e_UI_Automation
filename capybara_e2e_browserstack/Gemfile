@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+
+gem 'rspec'
+gem 'capybara'
+gem 'selenium-webdriver', '3.142.6' # we pin this version to match that of the selenium docker images (see docker-compose.yml)
+gem 'cucumber'
+gem 'poltergeist'
+gem 'launchy'
+gem 'browserstack-local'
+gem 'parallel_tests'
+gem 'nokogiri'
+gem 'rake'
+gem 'sauce-cucumber'
+
+
+
+
